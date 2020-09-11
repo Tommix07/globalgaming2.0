@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'bestemmia',
+    name: 'filastrocca',
     description: "LOLOLOL",
     execute(message, args) {
         message.channel.send('Porco dio e porca la madonna')
