@@ -44,6 +44,10 @@ bot.on('message', message=>{
     if (command === 'site') {
         bot.commands.get('site').execute(message, args);
     }
+    
+    if (command === 'bestemmia') {
+        bot.commands.get('bestemmia').execute(message, args);
+    }
 
 })
 
