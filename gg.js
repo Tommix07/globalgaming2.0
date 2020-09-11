@@ -47,4 +47,4 @@ bot.on('message', message=>{
 
 })
 
-bot.login('NzU0MDgxODU1NDEzOTQ0NjQx.X1vjdA.sa7XIj1ZNsg3PMW_2YBsNev8IL0');
+bot.login(process.env.BOT_TOKEN);
