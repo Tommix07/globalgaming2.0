@@ -26,7 +26,7 @@
                 .addFields(
                     { name: 'Moderazione', value: '‭‭ ' },
                     { name: 'gg!ban', value: 'Per bannare un utente dal server', inline: true },
-                    { name: 'gg!kick', value: 'Per kikare un utente dal server', inline: true },
+                    { name: 'gg!kick', value: 'Per kickare un utente dal server', inline: true },
                 )
                 .setFooter(message.author.username);
 
