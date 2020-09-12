@@ -52,6 +52,10 @@ bot.on('message', message=>{
     if (command === 'filastrocca') {
         bot.commands.get('filastrocca').execute(message, args);
     }
+    
+    if (command === 'twitch') {
+        bot.commands.get('twitch').execute(message, args);
+    }
 
 })
 
