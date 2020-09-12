@@ -18,7 +18,7 @@ const PREFIX = 'gg!';
 bot.once('ready', () => {
     console.log('GG Bot is online!');
     bot.user.setStatus('online')
-    bot.user.setActivity('Global Gaming 2.0', { type: 'WATCHING' });
+    bot.user.setActivity('gg!help', { type: 'PLAYING' });
     
 })
 
@@ -44,7 +44,11 @@ bot.on('message', message=>{
     if (command === 'site') {
         bot.commands.get('site').execute(message, args);
     }
-    
+
+    if (command === 'help') {
+        bot.commands.get('help').execute(message, args);
+    }
+
     if (command === 'filastrocca') {
         bot.commands.get('filastrocca').execute(message, args);
     }
