@@ -13,6 +13,7 @@
                     { name: 'gg!rules', value: 'Regolamento', inline: true },
                     { name: 'gg!filastrocca', value: 'Provalo...', inline: true },
                     { name: 'gg!twitch', value: 'Twitch ufficiale di Global Gaming', inline: true },
+                    { name: 'gg!instagram', value: 'Pagina Instagram ufficiale di Global Gaming', inline: true },
                 )
                 .setFooter(message.author.username);
 
