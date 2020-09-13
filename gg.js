@@ -56,6 +56,10 @@ bot.on('message', message=>{
     if (command === 'twitch') {
         bot.commands.get('twitch').execute(message, args);
     }
+    
+    if (command === 'instagram') {
+        bot.commands.get('instagram').execute(message, args);
+    }
 
 })
 
