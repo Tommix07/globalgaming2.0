@@ -18,7 +18,7 @@ const PREFIX = 'gg!';
 bot.once('ready', () => {
     console.log('GG Bot is online!');
     bot.user.setStatus('online')
-    bot.user.setActivity('gg!help│gg!', { type: 'PLAYING' });
+    bot.user.setActivity('globalgaming.online│gg!help', { type: 'PLAYING' });
     
 })
 
