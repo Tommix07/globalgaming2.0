@@ -7,7 +7,7 @@ module.exports = {
             .setColor('#0099ff')
             .setTitle('Il sito web ufficiale di Global Gaming 2.0:')
             .addFields(
-                { name: 'http://globalgaming.altervista.org/', value: '‭‭‭‭  ' },
+                { name: 'http://www.globalgaming.online/', value: '‭‭‭‭  ' },
             )
             .setFooter(message.author.username);
 
